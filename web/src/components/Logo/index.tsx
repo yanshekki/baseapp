@@ -6,8 +6,9 @@ import { CustomizationSettingsInterface, LogoInterface } from '../../themes';
 
 
 const DEFAULT_IMAGE: LogoInterface = {
-    url: '',
-    width: '',
+    url: 'https://www.keiyu.io/img/metickta_logo_W_sq_o.png',
+    width: 'auto',
+    height: '80px'
 };
 
 export const Logo: FC = (): ReactElement => {

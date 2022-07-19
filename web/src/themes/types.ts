@@ -10,6 +10,7 @@ export interface ThemePresetInterface extends CustomizationSettingsInterface {
 export interface LogoInterface {
     url: string;
     width?: string;
+    height?: string;
 }
 
 export interface CustomizationSettingsInterface {
