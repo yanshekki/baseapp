@@ -33,7 +33,10 @@ export const Logo: FC = (): ReactElement => {
                     src={image.url}
                     alt="Logo"
                     className="pg-logo__img"
-                    style={{ width: image?.width ? `${image.width}px` : 'auto'}}
+                    style={{
+                        width: image?.width,
+                        height: image?.height,
+                    }}
                 />
             ) : (
                 <LogoIcon
