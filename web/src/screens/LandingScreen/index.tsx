@@ -65,15 +65,17 @@ class Landing extends React.Component<Props> {
                     <div className="pg-landing-screen__header__wrap">
                         <div className="pg-landing-screen__header__wrap__left" onClick={(e) => this.handleScrollTop()}>
                             {/* <Logo /> */}
-                            <img
-                                src='https://www.keiyu.io/img/metickta_logo_W_sq_o.png'
-                                alt="Logo"
-                                className="pg-logo__img"
-                                style={{
-                                    width: 'auto',
-                                    height: '80px',
-                                }}
-                            />
+                            <div className="pg-logo">
+                                <img
+                                    src='https://www.keiyu.io/img/metickta_logo_W_sq_o.png'
+                                    alt="Logo"
+                                    className="pg-logo__img"
+                                    style={{
+                                        width: 'auto',
+                                        height: '80px',
+                                    }}
+                                />
+                            </div>
                         </div>
                         <div className="pg-landing-screen__header__wrap__right">
                             {this.props.isLoggedIn ? (
